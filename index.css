@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(15, 15, 15, 0.527);
+}
+
+.hero-container{
+    height: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./photo/tree-832079.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.header{
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+
+
+}
+
+.hero-name{
+
+    color: #9acd32 ;
+
+}
+.hero-name:hover{
+    color: rgba(79, 235, 6, 0.712) ;
+    transition: ease all 0.9s;
+}
+
+.body-text{
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+}
+
+.button{
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    top: 60%;
+    left: 45%;
+    
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+
+
+
+}
+
+.button:hover{
+    background-color: turquoise;
+    color: white;
+    transition: ease all 0.9s;
+    text-decoration: none;
+}
+
+.card-img{ 
+    position: absolute;
+    border: hidden;
+    border-radius: 50%;
+    top: 30%;
+    left: 28%;
+    height: 200px;
+    width: auto;
+    border: 1px solid gray;
+}
+.card-img:hover{
+    border: 1px solid rgba(210, 231, 215, 0.959);
+}
+
+.eduation{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.76)), url(./photo/science-1182713_1920.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-position:center;
+    background-size: cover;
+    margin: 30px 0px ;
+}
+
+.eduation{
+    position: relative;
+
+}
+.heading{
+    color: rgb(63, 221, 187);
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    
+    
+}
+.heading:hover{
+    color: rgba(108, 108, 112, 0.959);
+    transition: ease all 0.5s
+}
+
+.inner-container{
+    position: relative;
+    height: 100vh;
+}
+.School-header{
+    color: rgb(99, 183, 216);
+    padding: 10px 15px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+
+}
+
+.para{
+    color: rgb(131, 198, 224);
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    text-justify: auto;
+    
+}
+
+.img-school{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 12%;
+    top: 18%;
+}
+
+.college-img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 18%;
+
+}
+
+.exprience{
+    height: 300px;
+    width: 300px;
+   
+}
+
+.exprience-header{
+    color: rgb(99, 183, 216);
+    padding: 10px 15px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+
+}
+
+.exprience{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 20%;
+    right: 15%;
+
+}
+
+.education__container{
+    
+    display: flexbox;
+    height: 100vh;
+    align-content: baseline;
+    top: 30%;
+    
+}
+
+.exprience-body{
+    color: rgb(131, 198, 224);
+    position: absolute;
+    bottom: 20%;
+    right: 8%;
+    text-justify: auto;
+} */
+
+
+.main-container{
+    position: relative;
+}
+
+.maint-container__heading{
+    position: absolute;
+    right: 50%;
